@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.cabecalho {
+  background: #0088bd;
+  padding: 1.25rem;
+}
+ 
+.navigation {display: none;}
+ 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.menu {
+  list-style: none;
+  padding: 1.25rem 0 0;
+}
+ 
+.logo,
+.nav-item,
+.nav-link,
+.menu-toggle {
+  color:  #fff;
+  text-transform: uppercase;
+}
+ 
+.logo,
+.nav-link {text-decoration: none;}
+ 
+.logo {font-weight: 600;}
+ 
+.menu-toggle {font-size: 1.25rem;}
+ 
+.nav-item {text-align: center;}
+ 
+.nav-item:not(:last-child) {margin-bottom: 1.25rem;}
