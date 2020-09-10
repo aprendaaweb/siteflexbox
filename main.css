@@ -34,6 +34,41 @@
 .nav-link {text-decoration: none;}
  
 .logo {font-weight: 600;}
+
+/* SOBRE*/ 
+.sobre {
+  color: #464646;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 100px;
+  text-align: center;
+}
+
+.sobre h1 {
+  margin-bottom: 10px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  background: #0088bd;
+  color: #fff;
+  padding: 100px 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.job {max-width: 400px;}
+
+.job img {margin-bottom: 10px; }
+
+.job p {text-align: center;}
+
  
 .menu-toggle {font-size: 1.25rem;}
  
