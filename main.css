@@ -75,3 +75,36 @@
 .nav-item {text-align: center;}
  
 .nav-item:not(:last-child) {margin-bottom: 1.25rem;}
+
+/* FOOTER */
+.rodape {padding: 50px 20px;}
+
+.wrapper-list {
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.list h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.list li {list-style-type: none;}
+
+.list-link {
+  color: #111;
+  text-decoration: none;
+
+}
+
+.rodape p {text-align: center;}
+
+.rodape p > a {
+  color: #ccc;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
