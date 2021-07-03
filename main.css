@@ -106,5 +106,25 @@
   text-decoration: none;
 }
 
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .wrapper-list {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .list:not(:last-child) {margin-bottom: 50px;}
 
+  .list h4,
+  .list li {text-align: center;}
+}
+
+@media only screen and (max-width: 850px) {
+  .wrapper-job {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .job:not(:last-child) {margin-bottom: 100px;}
+}
