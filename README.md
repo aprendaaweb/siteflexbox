@@ -1,7 +1,7 @@
 # siteflexbox
 Um site simples criado usando o poder do CSS flexbox
 
-Existem três branches 
+Existem três branches além da master
 
 ### Branch parte1
 É onde esta a estrutura do header, todos os links e o menu hamburguer.
